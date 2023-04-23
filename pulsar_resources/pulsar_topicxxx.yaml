@@ -1,0 +1,10 @@
+Version: resource.streamnative.io/v1alpha1
+kind: PulsarTopic
+metadata:
+  name: test-pulsar-topicxxx
+  namespace: pulsar
+spec:
+  name: persistent://public/default/topicxxx
+  connectionRef:
+    name: "test-pulsar-connection"
+  lifecyclePolicy: CleanUpAfterDeletion
