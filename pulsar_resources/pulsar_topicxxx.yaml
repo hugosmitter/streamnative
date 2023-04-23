@@ -1,4 +1,4 @@
-Version: resource.streamnative.io/v1alpha1
+apiVersion: resource.streamnative.io/v1alpha1
 kind: PulsarTopic
 metadata:
   name: test-pulsar-topicxxx
