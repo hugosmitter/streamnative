@@ -7,15 +7,15 @@ spec:
   name: tenant1/ns1
   connectionRef:
     name: test-pulsar-connection
-  backlogQuotaLimitSize: 1Gi
-  backlogQuotaLimitTime: 24h0m0s
-  bundles: 16
-  messageTTL: 1h0m0s
-  backlogQuotaRetentionPolicy: producer_request_hold
-  maxProducersPerTopic: 2
-  maxConsumersPerTopic: 2
+  #backlogQuotaLimitSize: 1Gi
+  #backlogQuotaLimitTime: 24h0m0s
+  #bundles: 16
+  #messageTTL: 1h0m0s
+  #backlogQuotaRetentionPolicy: producer_request_hold
+  #maxProducersPerTopic: 2
+  #maxConsumersPerTopic: 2
   # optional
-  maxConsumersPerSubscription: 2
-  retentionTime: 20h0m0s
-  retentionSize: 2Gi
+  #maxConsumersPerSubscription: 2
+  #retentionTime: 20h0m0s
+  #retentionSize: 2Gi
   lifecyclePolicy: CleanUpAfterDeletion
