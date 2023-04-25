@@ -8,7 +8,7 @@ spec:
   connectionRef:
     name: test-pulsar-connection
   backlogQuotaLimitSize: 1Gi
-  backlogQuotaLimitTime: 24h0m0s
+  backlogQuotaLimitTime: 20h0m0s
   bundles: 16
   messageTTL: 1h0m0s
   backlogQuotaRetentionPolicy: producer_request_hold
@@ -16,6 +16,6 @@ spec:
   maxConsumersPerTopic: 2
   # optional
   maxConsumersPerSubscription: 2
-  retentionTime: 20h0m0s
+  retentionTime: 24h0m0s
   retentionSize: 2Gi
   lifecyclePolicy: CleanUpAfterDeletion
